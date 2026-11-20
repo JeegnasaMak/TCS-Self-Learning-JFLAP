@@ -1,7 +1,5 @@
 # THEORY OF COMPUTER SCIENCE — SELF LEARNING ACTIVITY
 
-## JFLAP Practical Implementations | Academic Year 2026–2027
-
 ## About the Activity
 
 This repository contains the practical implementations completed as part of the **Theory of Computer Science Self-Learning Activity**.
