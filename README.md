@@ -1,131 +1,151 @@
-## Self-Learning Activity — JFLAP Implementations
+# THEORY OF COMPUTER SCIENCE — SELF LEARNING ACTIVITY
 
-## Introduction
+## JFLAP Practical Implementations | Academic Year 2026–2027
 
-This repository contains the practical implementations completed as part of the Theory of Computer Science Self-Learning Activity.
+## About the Activity
 
-The activity focuses on the study and implementation of different concepts of Automata Theory using **JFLAP 7.1**. It includes the construction and testing of finite automata, conversion of automata, DFA minimization, regular expression conversion and Mealy Machine design.
+This repository contains the practical implementations completed as part of the **Theory of Computer Science Self-Learning Activity**.
 
-Each practical includes its problem statement, implementation file (`.jff`), and screenshots of the automaton design and testing results.
+The activity focuses on the study and implementation of different concepts of Automata Theory using JFLAP. It includes the construction of finite automata, conversion of automata, DFA minimization, regular expression conversion and Mealy Machine design.
 
----
-
-# Practical Implementations
-
-## Practical 1 — Deterministic Finite Automaton (DFA)
-
-**Problem Statement:** Design a DFA over the alphabet `{0,1}` that accepts binary strings containing an even number of `1`s.
-
-**Concepts:**
-- Deterministic Finite Automaton
-- Initial and final states
-- State transitions
-- String acceptance and rejection
-
-**Implementation:**
-
-![Practical 1 DFA](Practical_1_DFA/1_DFA.png)
-
-**Testing:** The automaton was tested with binary strings containing even and odd numbers of `1`s.
-
-[View Practical 1 Files](Practical_1_DFA/)
+Each practical includes its JFLAP implementation file, screenshots and a separate README containing its aim, problem statement and result.
 
 ---
 
-## Practical 2 — Non-Deterministic Finite Automaton (NFA)
+## List of Practicals
 
-**Problem Statement:** Design an NFA over the alphabet `{0,1}` that accepts binary strings containing `01` as a substring.
+### Practical 1 — Deterministic Finite Automaton (DFA)
 
-**Concepts:**
-- Non-Deterministic Finite Automaton
-- Multiple transitions
-- Initial and final states
-- String acceptance and rejection
+**Problem Statement:** Design a DFA that accepts binary strings containing an even number of `1`s.
 
-**Implementation:**
+**Concepts:** DFA, states, transitions, initial state and final state.
 
-![Practical 2 NFA](Practical_2_1_NFA.png)
+**Implementation Screenshot:**
 
-**Testing:** The automaton was tested with strings containing and not containing the substring `01`.
+![DFA Implementation](Practical_1_DFA/1_DFA.png.png)
 
-[View Practical 2 Files](Practical_2_NFA/)
+**JFLAP File:** [68_JeegnasaMakwana_DFA_EvenOnes_20-11-2026.jff](Practical_1_DFA/68_JeegnasaMakwana_DFA_EvenOnes_20-11-2026.jff)
+
+**Practical Folder:** [Practical 1 — DFA](Practical_1_DFA/)
 
 ---
 
-## Practical 3 — NFA to DFA Conversion
+### Practical 2 — Non-Deterministic Finite Automaton (NFA)
+
+**Problem Statement:** Design an NFA that accepts binary strings containing `01` as a substring.
+
+**Concepts:** NFA, nondeterministic transitions and string acceptance.
+
+**Implementation Screenshot:**
+
+![NFA Implementation](Practical_2_NFA/1_NFA_Diagram.png)
+
+**JFLAP File:** [68_JeegnasaMakwana_NFA_Substring01_20-11-2026.jff](Practical_2_NFA/68_JeegnasaMakwana_NFA_Substring01_20-11-2026.jff)
+
+**Practical Folder:** [Practical 2 — NFA](Practical_2_NFA/)
+
+---
+
+### Practical 3 — NFA to DFA Conversion
 
 **Problem Statement:** Design an NFA that accepts binary strings containing `101` as a substring and convert it into an equivalent DFA.
 
-**Concepts:**
-- NFA construction
-- Subset Construction Method
-- DFA conversion
-- Equivalent automata
+**Concepts:** NFA, subset construction method and DFA conversion.
 
-**Implementation:**
+**NFA Implementation:**
 
-![Practical 3 NFA to DFA](Practical_3_NFA_to_DFA/3_Converted_DFA.png)
+![NFA Diagram](Practical_3_NFA_to_DFA/1_NFA.png.png)
 
-**Testing:** The converted DFA was tested with strings containing and not containing `101`.
+**Subset Construction:**
 
-[View Practical 3 Files](Practical_3_NFA_to_DFA/)
+![Subset Construction](Practical_3_NFA_to_DFA/2_Subset_Construction.png.png)
+
+**Converted DFA:**
+
+![Converted DFA](Practical_3_NFA_to_DFA/3_Converted_DFA.png.png)
+
+**JFLAP Files:**
+- [Original NFA](Practical_3_NFA_to_DFA/68_JeegnasaMakwana_NFA_101_20-11-2026.jff)
+- [Converted DFA](Practical_3_NFA_to_DFA/68_JeegnasaMakwana_DFA_101_20-11-2026.jff)
+
+**Practical Folder:** [Practical 3 — NFA to DFA](Practical_3_NFA_to_DFA/)
 
 ---
 
-## Practical 4 — DFA Minimization
+### Practical 4 — DFA Minimization
 
 **Problem Statement:** Design a DFA that accepts binary strings ending in `1` and minimize it by identifying equivalent states.
 
-**Concepts:**
-- Equivalent states
-- State partitioning
-- DFA minimization
-- Reduced state representation
+**Concepts:** Equivalent states, state partitioning and DFA minimization.
 
-**Implementation:**
+**Original DFA:**
 
-![Practical 4 Minimized DFA](Practical_4_DFA_Minimization/3_Minimized_DFA.png)
+![Original DFA](Practical_4_DFA_Minimization/1_Original_DFA.png.png)
 
-**Testing:** The original and minimized automata were tested with different binary strings.
+**State Partitioning:**
 
-[View Practical 4 Files](Practical_4_DFA_Minimization/)
+![State Partitioning](Practical_4_DFA_Minimization/2_State_Partitioning.png.png)
+
+**Minimized DFA:**
+
+![Minimized DFA](Practical_4_DFA_Minimization/3_Minimized_DFA.png.png)
+
+**JFLAP Files:**
+- [Original DFA](Practical_4_DFA_Minimization/68_JeegnasaMakwana_DFA_Original_20-11-2026.jff)
+- [Minimized DFA](Practical_4_DFA_Minimization/68_JeegnasaMakwana_DFA_Minimized_20-11-2026.jff)
+
+**Practical Folder:** [Practical 4 — DFA Minimization](Practical_4_DFA_Minimization/)
 
 ---
 
-## Practical 5 — Regular Expression to Finite Automaton
+### Practical 5 — Regular Expression to Finite Automaton
 
 **Problem Statement:** Convert the regular expression `(a+b)*abb` into an equivalent finite automaton.
 
-**Concepts:**
-- Regular Expressions
-- Regular Languages
-- Regular Expression to NFA conversion
-- NFA to DFA conversion
+**Concepts:** Regular expressions, regular languages, NFA construction and DFA conversion.
 
-**Implementation:**
+**Regular Expression:**
 
-![Practical 5 Regular Expression](Practical_5_Regular_Expression/4_Testing.png)
+![Regular Expression](Practical_5_Regular_Expression/1_Regular_Expression.png.png)
 
-**Testing:** The converted automaton was tested with strings ending and not ending in `abb`.
+**NFA Conversion:**
 
-[View Practical 5 Files](Practical_5_Regular_Expression/)
+![NFA Conversion](Practical_5_Regular_Expression/2_NFA_Conversion.png.png)
+
+**Converted DFA:**
+
+![Converted DFA](Practical_5_Regular_Expression/3_Converted_DFA.png.png)
+
+**Testing:**
+
+![Testing](Practical_5_Regular_Expression/4_Testing.png.png)
+
+**JFLAP File:** [68_JeegnasaMakwana_Regex_abb_20-11-2026.jff](Practical_5_Regular_Expression/68_JeegnasaMakwana_Regex_abb_20-11-2026.jff)
+
+**Practical Folder:** [Practical 5 — Regular Expression](Practical_5_Regular_Expression/)
 
 ---
 
-## Practical 6 — Mealy Machine
+### Practical 6 — Mealy Machine
 
 **Problem Statement:** Design a Mealy Machine that detects the substring `01` in a binary input string and produces output `1` whenever the substring is detected.
 
-**Concepts:**
-- Mealy Machine
-- Input and output alphabets
-- State transitions
-- Output generation
+**Concepts:** Mealy Machine, input-output transitions and state-based output generation.
 
-**Implementation:**
+**Implementation Screenshot:**
 
-![Practical 6 Mealy Machine](Practical_6_Mealy_Machine/1_MealyMachine.png)
+![Mealy Machine Implementation](Practical_6_Mealy_Machine/1_MealyMachine.png)
 
-**Testing:** The machine was tested with different binary input strings to verify the generated output sequences.
+**JFLAP File:** [68_JeegnasaMakwana_Mealy_Substring01_20-11-2026.jff](Practical_6_Mealy_Machine/68_JeegnasaMakwana_Mealy_Substring01_20-11-2026.jff)
 
-[View Practical 6 Files](Practical_6_Mealy_Machine/)
+**Practical Folder:** [Practical 6 — Mealy Machine](Practical_6_Mealy_Machine/)
+
+---
+
+## Software Used
+
+| Software | Purpose |
+|---|---|
+| JFLAP 7.1 | Designing, converting and testing automata |
+| Java Runtime | Running JFLAP |
+| GitHub | Storing practical files and documentation |
